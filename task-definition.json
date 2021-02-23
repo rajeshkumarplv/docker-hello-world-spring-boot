@@ -29,7 +29,7 @@
       "memoryReservation": null,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "public.ecr.aws/l7t4i3e6/rajpillu-ecr-repository:latest",
+      "image": "public.ecr.aws/l7t4i3e6/rajpillu-ecr-repository:b47d5ccfa329d49ea8729b4b4f72aa9a1bdd6641",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -55,7 +55,7 @@
   "compatibilities": [
     "EC2"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:929050680739:task-definition/ec2-task-definition:1",
+  "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:929050680739:task-definition/ec2-task-definition:2",
   "family": "ec2-task-definition",
   "requiresAttributes": [],
   "pidMode": null,
@@ -64,7 +64,7 @@
   ],
   "networkMode": null,
   "cpu": null,
-  "revision": 1,
+  "revision": 2,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
