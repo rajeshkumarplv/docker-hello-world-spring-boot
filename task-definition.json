@@ -42,7 +42,7 @@
       "memoryReservation": 512,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "httpd:2.4",
+      "image": "public.ecr.aws/l7t4i3e6/rajpillu-ecr-repository:14ca864d5d7c56dae143034366a16aea0dad36d5",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
@@ -50,7 +50,7 @@
       "interactive": null,
       "healthCheck": null,
       "essential": true,
-      "links": [],
+      "links": null,
       "hostname": null,
       "extraHosts": null,
       "pseudoTerminal": null,
@@ -69,7 +69,7 @@
     "EC2",
     "FARGATE"
   ],
-  "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:929050680739:task-definition/first-run-task-definition:1",
+  "taskDefinitionArn": "arn:aws:ecs:ap-northeast-2:929050680739:task-definition/first-run-task-definition:2",
   "family": "first-run-task-definition",
   "requiresAttributes": [
     {
@@ -115,7 +115,7 @@
   ],
   "networkMode": "awsvpc",
   "cpu": "256",
-  "revision": 1,
+  "revision": 2,
   "status": "ACTIVE",
   "inferenceAccelerators": null,
   "proxyConfiguration": null,
