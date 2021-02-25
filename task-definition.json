@@ -42,7 +42,7 @@
       "memoryReservation": 512,
       "volumesFrom": [],
       "stopTimeout": null,
-      "image": "public.ecr.aws/l7t4i3e6/rajpillu-ecr-repository:14ca864d5d7c56dae143034366a16aea0dad36d5",
+      "image": "public.ecr.aws/l7t4i3e6/rajpillu-ecr-repository",
       "startTimeout": null,
       "firelensConfiguration": null,
       "dependsOn": null,
